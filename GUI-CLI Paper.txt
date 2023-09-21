@@ -1,0 +1,1 @@
+After experimenting with both the GUI and CLI, I've come to prefer the GUI - it's easier to approach as a beginner. The visual elements aid in the process of coding and is easier to understand, whereas using the command line is more difficult given the need to learn every prompt and term.
