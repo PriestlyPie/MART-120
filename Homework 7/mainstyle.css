@@ -1,0 +1,17 @@
+body{
+    background-image: url(/Users/yupde/Downloads/quoth.jpg);
+}
+
+span{
+    color: white;
+}
+span.blueColor{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+#specificLink{
+    color:red;
+    font-size: small;
+}
