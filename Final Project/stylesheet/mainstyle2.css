@@ -1,0 +1,24 @@
+h1, body{
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+    text-size-adjust: 79;
+    font-size: 20;
+}
+
+span{
+    font-size: 30;
+}
+
+span.blueColor{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+img{
+    max-height: 75%;
+    max-width: 75%;
+}
