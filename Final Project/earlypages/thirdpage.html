@@ -1,0 +1,47 @@
+<html>
+
+    <title>Page 3</title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <script>
+        function checkboxes()
+        {
+            var firstName = document.getElementById("fName").value;
+            var lastName = document.getElementById("lName").value;
+            var daemail = document.getElementById("email").value;
+            var daterms = document.getElementById("terms").value;
+            if (firstName == "");
+                document.getElementById("fName").style.backgroundColor = "red";
+                document.getElementById("fName").focus();
+            if (lastName == "");
+                document.getElementById("lName").style.backgroundColor = "red";
+                document.getElementById("lName");
+            if (daemail == "");
+                document.getElementById("email").style.backgroundColor = "red";
+                document.getElementById("email");
+            if (lastName == false);
+                document.getElementById("lName").style.color = "red";
+                document.getElementById("lName");
+        }
+    </script>
+        <h1>Contact Us</h1>
+        <p></p>
+
+        <form action="">
+            <p>First Name: <input type="text" id="fName"></p>
+            <p>Last Name: <input type="text" id="lName"></p>
+            <p>Email Address: <input type="text" id="email"></p>
+            <p>Do you accept the terms of agreement? <input type="checkbox" id="terms"></p>
+            <button id="btnSubmit" class="btn btn-primary" onclick="checkboxes();">Submit My Info</button>
+        </form>
+
+        <p><a href="pageuno.html" id="specificLink" target="_blank">Go to the Home Page</a></p>
+        <p><a href="secondpage.html" id="specificLink" target="_blank">Go to the Story</a></p>
+        
+    </body>
+</html>
